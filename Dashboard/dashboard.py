@@ -17,7 +17,7 @@ with st.container():
     st.pyplot(plt)
 with st.expander("Penjelasan Visualisasi 1"):
     st.write(
-        "Mayoritas transaksi pada e-commerce menggunakan metode credit_card atau kartu kredit. Disini muncul peluang untuk optimalisasi dimana e-commerce dapat fokus pada metode pembayaran kartu kredit dengan membuat promo menarik menggunakan metode pembayaran tersebut"
+        "Mayoritas transaksi pada e-cstommerce menggunakan metode credit_card atau kartu kredit. Disini muncul peluang untuk optimalisasi dimana e-commerce dapat fokus pada metode pembayaran kartu kredit dengan membuat promo menarik menggunakan metode pembayaran tersebut"
     )
 
 # Import Dataset 2
