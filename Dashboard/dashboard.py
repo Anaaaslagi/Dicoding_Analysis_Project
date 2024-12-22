@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 st.header("Dashboard Sederhana Anas")
 
 #Import Dataset 1
-order_payments_df = pd.read_csv("C:/Users/Anas G/Desktop/ANAS BELONGINGS/Dicoding_Analysis_Project/Data/order_payments_dataset.csv", delimiter=",")
+order_payments_df = pd.read_csv("Data/order_payments_dataset.csv", delimiter=",")
 
 with st.container():
     # Visualisasi 1
@@ -21,7 +21,7 @@ with st.expander("Penjelasan Visualisasi 1"):
     )
 
 # Import Dataset 2
-order_items_df = pd.read_csv("C:/Users/Anas G/Desktop/ANAS BELONGINGS/Dicoding_Analysis_Project/Data/order_items_dataset.csv")
+order_items_df = pd.read_csv("Data/order_items_dataset.csv")
 top_ten_seller = order_items_df['seller_id'].value_counts().head(10)
 
 with st.container():
