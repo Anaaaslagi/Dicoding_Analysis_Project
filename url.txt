@@ -1,2 +1,0 @@
-link github: https://github.com/Anaaaslagi/Dicoding_Analysis_Project
-link dashboard: https://dashboardanas.streamlit.app/
